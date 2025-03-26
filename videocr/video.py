@@ -84,7 +84,8 @@ class Video:
                         prev_grey = grey
 
                     predicted_frames = PredictedFrames(i + ocr_start, ocr.ocr(frame), conf_threshold_percent)
-                    self.pred_frames.append(predicted_frames)
+                    if predicted_frames is not None:
+                        self.pred_frames.append(predicted_frames)
                 else:
                     v.read()
         
