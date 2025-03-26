@@ -28,7 +28,7 @@ class PredictedFrames:
         current_line = []
         current_line_max_y = None
         for l in pred_data[0]:#Lol
-            if len(l) < 2:
+            if len(l) < 3:
                 continue
             bounding_box = l[0]
             text = l[1][0]
