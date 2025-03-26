@@ -19,6 +19,7 @@ setup(
         'thefuzz>=0.19',
         'python-Levenshtein>=0.12',
         'paddleocr==2.7.0.2',
+        'PyMuPDF<=1.20.0'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
