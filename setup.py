@@ -15,12 +15,12 @@ setup(
     author_email='me@yige.ch',
     url='https://github.com/apm1467/videocr',
     download_url='https://github.com/apm1467/videocr/archive/v0.1.6.tar.gz',
-    install_requires=[
-        'thefuzz>=0.19',
-        'python-Levenshtein>=0.12',
-        'paddleocr==2.7.0.2',
-        'PyMuPDF<=1.20.0'
-    ],
+    # install_requires=[
+    #     'thefuzz>=0.19',
+    #     'python-Levenshtein>=0.12',
+    #     'paddleocr==2.7.0.2',
+    #     'PyMuPDF<=1.20.0'
+    # ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
